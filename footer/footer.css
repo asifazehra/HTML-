@@ -1,0 +1,42 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.head{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    background-color: cadetblue;
+}
+div h4{
+    margin-top: 25px;
+}
+nav ul {
+    font-size: 15px;
+    
+    list-style: none;
+    gap: 50px;
+}
+nav ul li {
+    display: inline-block;
+    padding: 25px;
+    color: black;
+}
+nav ul li a {
+    text-decoration: none;  
+}
+ a :hover{
+    color: darkblue;
+}
+
+button{
+    height: 35px;
+    width: 69px;
+    cursor: pointer;
+    background-color: rgb(97, 134, 23);
+    border: thick;
+    border-radius: 25px;
+    margin-top: 18px;
+}

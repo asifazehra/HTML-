@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url('./hybe.jpg');
+    
+    background-repeat: no-repeat;
+    background-position-y: center;
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    font-size: 20px;
+    color: #fff;
+
+}
+.class{
+    margin: 20px;
+    font-weight: bolder;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    justify-content: space-between;
+    margin: 30px;
+}
+nav ul li a:hover{
+    color: steelblue;
+}
+.body{
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    margin: 180px 200px;
+}
+.para{
+    font-size: 14px;
+    font-family:  sans-serif;
+    margin: 0 200px;
+}
+button{
+    border-radius: 26px;
+    border-color: cadetblue;
+    cursor: pointer;
+    background-color: transparent;
+    color: #fff;
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+}
